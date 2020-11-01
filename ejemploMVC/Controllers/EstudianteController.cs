@@ -18,18 +18,20 @@ namespace ejemploMVC.Controllers
         public ActionResult notas(calculo obCalculo)
         {
             double resultado = (obCalculo.nota1+obCalculo.nota2 + obCalculo.nota3)/3;
-            if (resultado >=7 & resultado < 10)
+            if (resultado >= 7 & resultado < 10)
             {
-                ViewBag.resultado =resultado+ " Aprobado";
+                ViewBag.resultado = resultado + " Aprobado";
             }
             else if (resultado == 10)
             {
                 ViewBag.resultado = resultado + " Felicitaciones";
             }
-            else if (resultado<=4)
+            else if (resultado <= 4)
             {
                 ViewBag.resultado = resultado + " Reprobado Visite a un tutor urgente";
             }
+            else
+                ViewBag.resultado = resultado;
             return View(obCalculo);
 
         }
