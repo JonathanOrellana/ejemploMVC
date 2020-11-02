@@ -153,6 +153,9 @@
     <Compile Include="Controllers\EstudianteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KaCController.cs" />
+    <Compile Include="Controllers\KilosaLibrasController.cs" />
+    <Compile Include="Controllers\LibrasaKilosController.cs" />
+    <Compile Include="Controllers\MetrsoaPulgadasController.cs" />
     <Compile Include="Controllers\multiplicacionController.cs" />
     <Compile Include="Controllers\PruebaController.cs" />
     <Compile Include="Controllers\restaController.cs" />
@@ -209,6 +212,9 @@
     <Content Include="Views\CaK\CelsiusaKelvin.cshtml" />
     <Content Include="Views\KaC\KelvinaCelsius.cshtml" />
     <Content Include="Views\Estudiante\notas.cshtml" />
+    <Content Include="Views\KilosaLibras\KilosaLibras.cshtml" />
+    <Content Include="Views\LibrasaKilos\LibrasaKilos.cshtml" />
+    <Content Include="Views\MetrsoaPulgadas\MetrosaPulgadas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
